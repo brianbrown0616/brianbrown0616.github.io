@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+
+h1,h3,h5 {
+	font-family: 'Fjalla One';
+	text-align: center;
+	color: #000;
+}
+
+body {
+	font-family: 'Tajawal';
+	color: #2B93FF;
+}
+
+ul {
+	list-style: none;
+}
+
+header {
+	background-color:#87cefa;
+	border: 1px black solid;
+	padding: 1px;
+}
+
+nav {
+	background-color:#D3D3D3;
+	border: 1px black solid;
+}
+
+a {
+	background-color:#E8C66A
+	color: red;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 5px;
+	margin-left: 10px
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+a:hover {
+	background-color: #B22222;
+}
+
+section {
+	background-color:#fff;
+	padding: 20px;
+}
+
+article {
+	background-color:E89C6C;
+	padding: 5px;
+}
+
+aside {
+	background-color:#FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color:#fff;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#slogan {
+	text-align: left;
+	font-family: 'Tajawal';
+	font-style: italic;
+}
+
+#description {
+	background-color: #fff;
+	padding: 5px;
+}
+
+#nhlteams {
+	text-align: center;
+	background-color: #fff;
+	padding: 5px;
+	float: left;
+	width: 30.33%;
+}
+
+#ahlteams {
+	text-align: center;
+	background-color: #fff;
+	padding: 5px;
+	float: left;
+	width: 30.33%;
+}
+
+#collegeteams {
+	text-align: center;
+	background-color: #fff;
+	padding: 5px;
+	float: left;
+	width: 30.33%;
+}
+
+#twocolumnfooter {
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #87cefa;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 45%;
+}
+
+#right {
+	background-color: #87cefa;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 45%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+
+
