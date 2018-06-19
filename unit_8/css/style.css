@@ -44,6 +44,10 @@ a:hover {
 	background-color: #B22222;
 }
 
+a:visited {
+	color:black;
+}
+
 section {
 	background-color:#fff;
 	padding: 2%;
@@ -74,15 +78,20 @@ footer {
 #nhlteams {
 	text-align: center;
 	background-color: #fff;
-	padding: 1%;
+	padding: .5em;
 	float: left;
 	width: 30.33%;
+}
+
+#nhlteams a, #ahlteams a, #collegeteams a {
+	display: block;
+	float:none;
 }
 
 #ahlteams {
 	text-align: center;
 	background-color: #fff;
-	padding: 1%;
+	padding: .5em;
 	float: left;
 	width: 30.33%;
 }
@@ -90,7 +99,7 @@ footer {
 #collegeteams {
 	text-align: center;
 	background-color: #fff;
-	padding: 1%;
+	padding: .5em;
 	float: left;
 	width: 30.33%;
 }
@@ -107,6 +116,7 @@ footer {
 	padding: 2%;
 	float: left;
 	width: 45%;
+	height: 150px;
 }
 
 #right {
@@ -115,6 +125,7 @@ footer {
 	padding: 2%;
 	float: right;
 	width: 45%;
+	height: 150px;
 }
 
 .clearfix:after {
@@ -129,6 +140,7 @@ footer {
 @media only screen and (max-width: 800px) {
   nav {
  	float: none;
+ }
   nav a {
     margin: 0 1.6em .75em 0;
   }
@@ -151,6 +163,8 @@ footer {
     float: none;
     font-size: 1.2em;
     text-align:center;
+	}
+}
 
 @media only screen and (max-width: 530px) {
   h1, nav {
@@ -186,4 +200,11 @@ footer {
 	    height: 1em;
 	    line-height: 1em;
 	  }
+}
+
+@media only screen and (max-width:530px) {
+	#left, #right {
+		float: none;
+		width: 100%;
 	}
+}
