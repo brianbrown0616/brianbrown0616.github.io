@@ -177,10 +177,18 @@ footer {
   img {
     width: 230px;
   }
-  section, div {
-    width: 100%;
-    padding: .6em;
+  section {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box
   }
+
+div {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box
+}
+
   #nhlteams, #ahlteams, #collegeteams {
     float: none;
     font-size: 1.2em;
